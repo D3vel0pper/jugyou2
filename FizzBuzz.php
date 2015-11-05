@@ -1,7 +1,10 @@
 <?php
   $i = 1;
   for(;$i<=100;$i++){
-    print "{$i}";
-    print "</br>";
+    if($i%3 == 0){
+      print "Fizz</br>";
+    }else{
+      print "{$i}</br>";
+    }
   }
  ?>
