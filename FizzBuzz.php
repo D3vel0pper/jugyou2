@@ -7,7 +7,9 @@
       print "Fizz</br>";
     }else if($i%5 == 0){
       print "Buzz</br>";
-    } else{
+    } else if($i%7 == 0){
+      print "Git</br>";
+    }else{
       print "{$i}</br>";
     }
   }
